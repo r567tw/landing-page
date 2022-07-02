@@ -1,0 +1,126 @@
+* {
+    /* border:solid 2px black */
+}
+
+html,
+body {
+    background-color: #ff7526;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+a {
+    color: initial;
+    text-decoration: initial;
+}
+
+.box {
+    width: 380px;
+    background-color: #fff;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.4);
+    transform: translate(-5px, -5px);
+}
+
+.top {
+    height: 330px;
+    position: relative;
+    background-image: url(./img/nickname.png);
+    background-size: cover;
+}
+
+.top .name {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 5px 15px;
+    letter-spacing: 2px;
+    color: white;
+    background: linear-gradient(transparent 0%, black 100%);
+}
+
+.top .small-text {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.cirbutton {
+    width: 30px;
+    height: 30px;
+    background-color: #ff7526;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    bottom: -10px;
+}
+
+.tag {
+    width: 20px;
+    height: 40px;
+    background-color: #ff7526;
+    float: right;
+    margin-right: 10px;
+}
+
+.bottom {
+    padding: 10px 20px 20px 20px;
+}
+
+.bottom li {
+
+    padding: 5px 0px;
+}
+
+.bottom ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.bottom h3 {
+    display: inline-block;
+    margin: 0;
+    padding-right: 5px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+}
+
+.btnSite {
+    color: #FFF;
+    background-color: #ff7526;
+    transition: 0.5s;
+}
+
+.btnSite:hover {
+    background-color: #ff9860;
+}
+
+.btnNews {
+    border: solid 1px black;
+    border-color: #ccc;
+    float: right;
+    transition: 0.5s;
+}
+
+.btnNews:hover {
+    background-color: #eee;
+}
